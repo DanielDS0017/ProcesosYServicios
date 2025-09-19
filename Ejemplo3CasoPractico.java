@@ -29,3 +29,32 @@ FileReader lecto = new FileReader(abcEscritura);
 
     }
 }
+
+
+/*
+ port.java.io.RandomAccesFile;
+
+try{
+
+RandomAccesFile file = new RandomAccesFile (.\\datos.txt, "rw")
+
+file.seek (pos5);
+int unByte =File.read();
+System.out.printLN(char)unByte);
+System.out.printLN(file.getFilePointer());
+
+file.write( pos68);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ */
