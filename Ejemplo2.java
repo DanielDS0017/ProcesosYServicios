@@ -18,19 +18,18 @@ int data; //Creamos variable.
 //escritorFicheros.write()Esto es un ejemplo de escritura.;
 //escritorFicheros.close();
 
-
-
-
 while ((data=lector.read()) != -1) { // eL -1 Sirve para recorrer el While.
 
     System.out.print((char)data);
-    
 }
 
 System.out.println((char)data); // Muestra el caracter de la tabla ASCII H = 72 - Si ponemos el char , lee caracter.
 
 lector.close();
 System.out.println("\nLectura completada");
+
+
+
 
     
 } catch (Exception e) {
