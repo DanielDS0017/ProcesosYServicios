@@ -30,7 +30,6 @@ FileReader lecto = new FileReader(abcEscritura);
     }
 }
 
-
 /*
  port.java.io.RandomAccesFile;
 
